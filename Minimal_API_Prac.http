@@ -1,0 +1,20 @@
+﻿@Minimal_API_Prac_HostAddress = https://localhost:7280
+
+
+
+GET {{Minimal_API_Prac_HostAddress}}/book
+
+###
+
+POST {{Minimal_API_Prac_HostAddress}}/book
+Content-Type: application/json
+
+{
+  "title":"walk dog 2",
+  "author":"ssaad 34"
+}
+###
+
+GET {{Minimal_API_Prac_HostAddress}}/book
+
+###
